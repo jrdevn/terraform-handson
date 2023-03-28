@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "resource_group" {
-  name     = "vnet"
+  name     = "vnet-sleep"
   location = var.location
   tags     = local.commont_tags
 }
